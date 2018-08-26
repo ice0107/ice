@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition>
+	</definition>
+	<!--动态界面
+	<definition name="dynamic" template="/page/user/layout/clientTwoSideLayout.jsp">
+		<put-attribute name="header" value="/page/user/tiles/client_header.jsp" />
+		<put-attribute name="content"
+					   value="/page/user/tiles/dynamic.jsp" />
+		<put-attribute name="right"
+					   value="/page/user/tiles/projectAndMassage.jsp" />
+	</definition>-->
+	<!--文章分享界面
+	<definition name="articleShare" template="/page/user/layout/clientIndexLayout.jsp">
+		<put-attribute name="header" value="/page/user/tiles/client_header.jsp" />
+		<put-attribute name="content"
+					   value="/page/user/tiles/articleShare.jsp" />
+	</definition>-->
+	<!--后台
+    <definition name="adminIndex" template="/page/admin/layout/adminIndexLayout.jsp">
+		<put-attribute name="header" value="/page/admin/tiles/admin_header.jsp" />
+        <put-attribute name="menu" value="/page/admin/tiles/menu.jsp" />
+        <put-attribute name="userBase" value="/page/admin/tiles/userBase.jsp" />
+		<put-attribute name="timeCheck" value="/page/admin/tiles/timeCheck.jsp" />
+		<put-attribute name="rankList" value="/page/admin/tiles/rankList.jsp" />
+		<put-attribute name="rankListDetail" value="/page/admin/tiles/rankListDetail.jsp" />
+		<put-attribute name="onlineCheck" value="/page/admin/tiles/onlineCheck.jsp" />
+		<put-attribute name="userLog" value="/page/admin/tiles/userLog.jsp" />
+		<put-attribute name="article" value="/page/admin/tiles/article.jsp" />
+		<put-attribute name="replyForArticle" value="/page/admin/tiles/replyForArticle.jsp" />
+		<put-attribute name="onlineChat" value="/page/admin/tiles/onlineChat.jsp" />
+		<put-attribute name="message" value="/page/admin/tiles/message.jsp" />
+		<put-attribute name="messageTo" value="/page/admin/tiles/messageTo.jsp" />
+		<put-attribute name="projectList" value="/page/admin/tiles/projectList.jsp" />
+		<put-attribute name="projectDetail" value="/page/admin/tiles/projectDetail.jsp" />
+		<put-attribute name="dictionary" value="/page/admin/tiles/dictionary.jsp" />
+    </definition>-->
+	<!--统计图
+	<definition name="statisticLayout" template="/page/admin/layout/adminIndexLayout.jsp">
+		<put-attribute name="header" value="/page/admin/tiles/admin_header.jsp" />
+		<put-attribute name="statistic" value="/page/admin/tiles/statistics.jsp" />
+		<put-attribute name="statisticsMenu" value="/page/admin/tiles/statisticsMenu.jsp" />
+	</definition>-->
+</tiles-definitions>
